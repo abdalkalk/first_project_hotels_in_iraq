@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-require_relative '../lib/hotels_in_iraqi_cities.rb'
+require_relative '../lib/hotels_in_iraq.rb'
 
 Cline.new.start

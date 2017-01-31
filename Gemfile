@@ -1,4 +1,7 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
+source "https://rubygems.org"
 
-# Specify your gem's dependencies in hotels_in_iraq.gemspec
-gemspec
+# gem "rails"
+gem 'sinatra' , '~>1.4.4'
+gem 'pry' , :group => 'development'
+gem 'nokogiri'
