@@ -18,7 +18,10 @@
   def  self.find(id)
     @@all[id]
   end
-
+def self.all
+ @@all
+end
+  #----------------------------
   def self.hotel_info(id)
     hotel=self.find(id)
     puts ""
