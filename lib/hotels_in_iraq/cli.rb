@@ -41,6 +41,6 @@ def self.hotel_list(input)
   end
 end
 def self.ckeck_input_piked(pik_hotel,input)
-  pik_hotel.between?(0,Scrap.start_nokogiri(CITY[input-1]).size)
+  pik_hotel.between?(0,Hotel.all.size)
 end
 end
